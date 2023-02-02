@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  display:flex;
+  min-height:100vh;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("./Qxl2Ysy.gif");
+}
+
+.auth-form-container, .login-form, .register-form {
+  display:flex;
+  flex-direction: column;
+  padding-top: 10px;
+  
+}
+
+
+.auth-form-container{
+  position: relative;
+  background: rgba(0, 0, 0, 0.7391);
+  box-sizing: content-box;
+  box-shadow: 0 40px 90px black;
+  border-radius: 10px;
+
+}
+
+.auth-form-container .email{
+  position: relative;
+}
+
+ 
+
+@media screen and (min-width: 600px){
+
+  .auth-form-container{
+    
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0.5rem;
+    /* border: 2px white solid; */
+    /* border-color: black; */
+    border-width: 5px;
+    background: rgba(0, 0, 0, 0.7391);
+    
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: solid;
+  border-color: rgb(56, 51, 51);
+  border-radius: 10px;
+}
+
+button {
+  border: solid;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.link-btn {
+  margin:20px;
+  border: none;
+  color: rgb(12, 11, 11);
+  text-decoration: underline;
+}
+
+
+button:hover{
+  background: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px aqua,
+                 0 0 25px aqua,
+                0 0 50px aqua,
+                0 0 100px aqua;
+}
+
