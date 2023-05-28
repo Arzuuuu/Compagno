@@ -60,21 +60,25 @@ h2{
     align-items: center;
 }
 
-a{
+p a, #register{
     color:white;
     border:1px solid grey;
     padding: 5px;
-    background-color: grey;
+    background-color: rgb(11, 11, 11);
     font-weight: bold;
     border-radius: 25px;
-
+    border: none;
     
 }
 
-a:hover{
-    color:lightblue;
-    border:3px solid grey;
-    background-color: grey;
+#logo{
+
+}
+
+a:hover, #register{
+    /* color:lightblue; */
+    /* border:3px solid grey; */
+    /* background-color: grey; */
     font-weight: bold;
     border-radius: 25px;
 
